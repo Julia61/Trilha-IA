@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+plotly = "*"
+matplotlib = "*"
+statsmodels = "*"
+pingouin = "*"
+nbformat = "*"
+ipykernel = "*"
+scikit-learn = "*"
+optuna = "*"
+ipywidgets = "*"
+flash = "*"
+pydantic = "*"
+flask-pydantic = "*"
+pyarrow = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12.10"
+python_full_version = "3.13.3"
